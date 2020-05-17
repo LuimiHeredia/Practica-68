@@ -1,0 +1,55 @@
+<html>
+<!--BREGRANDO PARA NO QUEMARME Y 0 PLAGIO-->
+
+<head>
+  <title>Practica 68</title>
+</head>
+<!--BREGRANDO PARA NO QUEMARME Y 0 PLAGIO-->
+
+<body>
+  <h2>EL MUCHACHON NOS DIO UN CHANCE KLK. METIENDO MANO CON LAS PRACTICAS QUE TENIAN MUCHOS PROBLEMAS HOY DOMINGO SE
+    ARMO EL JUIDEROOO!!</h2>
+  
+  <center><h3>BIENVENIDOS A FACEBOOK</h3></center>
+  <center>
+    <form>
+    Escriba Su Correo Electronico:
+    <input type="mail" id="Correo">
+    <br>
+    Escriba Su Contraseña:
+    <input type="password" id="Clave">
+    <br>
+    <input type="checkbox" id="Checkbox">
+    Confirma Los Términos Y Condiciones?
+    <br>
+    <input type="button" id="Botón" value="Confirmar" disabled>
+  </form>
+</center>
+  
+  <script>
+
+    addEventListener('DOMContentLoaded', Inicio, false);
+
+    function Inicio() 
+    {
+      document.getElementById('Checkbox').addEventListener('change', Confirmar, false);
+    }
+
+
+    function Confirmar() 
+    {
+
+      if (document.getElementById('Checkbox').checked == true) 
+      {
+        document.getElementById('Botón').disabled = false;
+      }
+      else
+        document.getElementById('Botón').disabled = true;
+    }
+
+  </script>
+
+</body>
+<!--BREGRANDO PARA NO QUEMARME Y 0 PLAGIO-->
+
+</html>
